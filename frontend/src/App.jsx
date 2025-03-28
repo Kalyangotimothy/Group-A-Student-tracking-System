@@ -18,7 +18,7 @@ import Settings from './pages/Profile/settings';
 import { IssuesProvider } from './context/IssueContext';
 import ErrorBoundary from './pages/ErrorBoundary';
 import ProtectedRoute from './pages/ProectectedRoute';
-import Sidebar from 'Components/Sidebar/Sidebar';
+
 
 const App = () => {
   return (
@@ -46,7 +46,6 @@ const App = () => {
             <Route path="issue/:id" element={<IssueDetails />} />
             <Route path="support" element={<HelpSupport />} />
             <Route path="settings" element={<Settings />} />
-            <
           </Route>
           <Route
             path="/lecturer/*"
